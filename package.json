@@ -1,5 +1,5 @@
 {
-    "name": "ucpp",
+    "name": "vuCpp",
     "displayName": "vuC++",
     "description": "uC++ support for VS Code",
     "version": "0.0.1",
@@ -22,5 +22,6 @@
             "path": "./syntaxes/uC++.tmLanguage"
         }]
     },
-    "publisher": "mohammad-yazdani"
+    "publisher": "mohammad-yazdani",
+    "repository": "https://github.com/mohammad-yazdani/vuCpp"
 }
