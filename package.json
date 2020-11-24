@@ -1,0 +1,26 @@
+{
+    "name": "ucpp",
+    "displayName": "vuC++",
+    "description": "uC++ support for VS Code",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.51.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "ucpp",
+            "aliases": ["uC++", "ucpp"],
+            "extensions": [".ucpp",".cc",".h"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "ucpp",
+            "scopeName": "source.ucpp",
+            "path": "./syntaxes/uC++.tmLanguage"
+        }]
+    },
+    "publisher": "mohammad-yazdani"
+}
